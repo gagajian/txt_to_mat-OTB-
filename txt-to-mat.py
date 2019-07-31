@@ -13,7 +13,7 @@ for i in range(len(pathlist)):
         if pathlist[i][j] == '.':
             save = pathlist[i][:j]
             break
-    savepath = savefile + save + '_SiamRPN++.mat'
+    savepath = savefile + save + '_SiamRPN++.mat'  ## your tracker name (here we use SiamRPN++)
 
     f = open(path)
     data = f.readlines()
